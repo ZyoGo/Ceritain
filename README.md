@@ -36,6 +36,7 @@ npm install
 ```
 cd server
 npm start
+```
 
 ## Coming soon Features
 - [ ] Reply Chat
