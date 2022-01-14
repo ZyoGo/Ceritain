@@ -36,6 +36,8 @@ npm install
 ```
 cd server
 npm start
-```# Ceritain
-# Ceritain
-# Ceritain
+
+## Coming soon Features
+- [ ] Reply Chat
+- [ ] Realtime Database
+- [ ] Redesign
