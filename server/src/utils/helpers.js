@@ -17,6 +17,7 @@ const listOfColors = [
   "#c0392b",
 ];
 
+// Function to shuffle an array color list
 function shuffle(array) {
   let currentIndex = array.length,
     randomIndex;
@@ -34,6 +35,7 @@ function shuffle(array) {
   return array;
 }
 
+// Function to create a random color
 function* getColorGenerator() {
   let current = 0;
   const loc = [...listOfColors];
@@ -47,6 +49,7 @@ function* getColorGenerator() {
   }
 }
 
+// Function to create array of user from object
 function createArrayOfUsersFromObject(obj) {
   return Object.keys(obj).map((k) => ({ username: k, ...obj[k] }));
 }
